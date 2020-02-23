@@ -1,0 +1,59 @@
+body{
+  background-image: url("img/ec01.webp");
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.crsl{
+  width: 150%;
+  height: 50vh;
+}
+.navbar-brand{
+  font-size: 35px;
+  }
+  .navbar-dark a {
+    color: red;
+  }
+  .container01{
+    margin-top:8%   ;
+  }
+  .inner{
+    overflow:hidden;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform:scale(1.5);
+  }
+ 
